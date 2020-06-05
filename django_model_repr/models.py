@@ -51,7 +51,7 @@ class Model(models.Model):
         attrs = ', '.join(parts)
         return '{}({})'.format(cls.__name__, attrs)
 
-    __str__ = __repr__
+    # __str__ = __repr__
 
 
 import django.db.models.options as options
